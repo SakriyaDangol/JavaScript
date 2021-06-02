@@ -1,5 +1,6 @@
 const My_Input = document.createElement('input');
 document.body.appendChild(My_Input);
+My_Input.placeholder = 'Enter Text';
 
 const Btn = document.createElement('button');
 document.body.appendChild(Btn);
