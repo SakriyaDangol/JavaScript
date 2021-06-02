@@ -18,5 +18,5 @@ function showInput(){
     const LI = document.createElement('li');
     UL.appendChild(LI);
     LI.appendChild(Text);
-    document.querySelector('input').value = 'Enter Text';
+    document.querySelector('input').value = ' ';
 }
